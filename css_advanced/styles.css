@@ -1,0 +1,76 @@
+header {
+    background-color: #123456; /* Use the actual Figma color */
+    height: 80px; /* Adjust per Figma */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.banner {
+    background-image: url('path-to-banner-image.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 20px;
+}
+.quotes {
+    font-style: italic;
+    border-left: 3px solid #ccc;
+    padding: 10px 20px;
+    margin: 20px;
+}
+.videos-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.video-item {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 10px;
+}
+.membership {
+    background: linear-gradient(to right, #ff7f50, #ff4500);
+    text-align: center;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+.membership button {
+    background: #fff;
+    color: #ff4500;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.faq-section {
+    margin: 20px;
+}
+
+.faq-question {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.faq-answer {
+    display: none;
+    padding: 10px;
+}
+
+.faq-question.active + .faq-answer {
+    display: block;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+footer a {
+    color: #ff7f50;
+    text-decoration: none;
+}
