@@ -1,4 +1,4 @@
-Headphone Company Website
+#Headphone Company Website
 This project involves building a website for a headphone company. The objective is to create a responsive and visually appealing site that showcases the company's products and brand identity.
 
 Project Setup
