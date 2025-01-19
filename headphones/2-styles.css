@@ -1,0 +1,31 @@
+/* Our Results Section */
+#our-results {
+    padding: 50px 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#our-results h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.results {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.result {
+    max-width: 200px;
+    margin: 20px;
+}
+
+.pentagon {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #ff5722; /* Example color */
+    margin: 0 auto 10px;
+}
