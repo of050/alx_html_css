@@ -1,0 +1,32 @@
+/* What We Do Section */
+#what-we-do {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#what-we-do h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.service h3 {
+    margin: 15px 0;
+}
+
+.icon {
+    font-size: 3rem; /* Adjust size as needed */
+    color: #ff5722; /* Example icon color */
+}
